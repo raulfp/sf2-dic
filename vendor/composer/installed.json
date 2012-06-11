@@ -1,0 +1,114 @@
+[
+    {
+        "name": "symfony/config",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "target-dir": "Symfony/Component/Config",
+        "time": "2012-05-26 13:30:39",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/Config",
+            "reference": "dc19d63559641fd283040471530b0117aa9a8c99"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://github.com/symfony/Config/zipball/dc19d63559641fd283040471530b0117aa9a8c99",
+            "reference": "dc19d63559641fd283040471530b0117aa9a8c99",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.3"
+        },
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.1-dev"
+            }
+        },
+        "installation-source": "source",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com",
+                "homepage": null,
+                "role": null
+            },
+            {
+                "name": "Symfony Community",
+                "email": null,
+                "homepage": "http://symfony.com/contributors",
+                "role": null
+            }
+        ],
+        "description": "Symfony Config Component",
+        "homepage": "http://symfony.com",
+        "autoload": {
+            "psr-0": {
+                "Symfony\\Component\\Config": ""
+            }
+        }
+    },
+    {
+        "name": "symfony/dependency-injection",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "target-dir": "Symfony/Component/DependencyInjection",
+        "time": "2012-05-30 03:01:58",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/DependencyInjection",
+            "reference": "b6916c7db53e798d8c761e45e6931430369fef2a"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://github.com/symfony/DependencyInjection/zipball/b6916c7db53e798d8c761e45e6931430369fef2a",
+            "reference": "b6916c7db53e798d8c761e45e6931430369fef2a",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.3"
+        },
+        "require-dev": {
+            "symfony/yaml": "2.1.*",
+            "symfony/config": "2.1.*"
+        },
+        "suggest": {
+            "symfony/yaml": "dev-master",
+            "symfony/config": "dev-master"
+        },
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.1-dev"
+            }
+        },
+        "installation-source": "source",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com",
+                "homepage": null,
+                "role": null
+            },
+            {
+                "name": "Symfony Community",
+                "email": null,
+                "homepage": "http://symfony.com/contributors",
+                "role": null
+            }
+        ],
+        "description": "Symfony DependencyInjection Component",
+        "homepage": "http://symfony.com",
+        "autoload": {
+            "psr-0": {
+                "Symfony\\Component\\DependencyInjection": ""
+            }
+        }
+    }
+]

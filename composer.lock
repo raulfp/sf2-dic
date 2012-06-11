@@ -1,0 +1,23 @@
+{
+    "hash": "45c04d1443e85d2e3bba843e21dfcb5f",
+    "packages": [
+        {
+            "package": "symfony/config",
+            "version": "dev-master",
+            "source-reference": "dc19d63559641fd283040471530b0117aa9a8c99"
+        },
+        {
+            "package": "symfony/dependency-injection",
+            "version": "dev-master",
+            "source-reference": "b6916c7db53e798d8c761e45e6931430369fef2a"
+        }
+    ],
+    "packages-dev": null,
+    "aliases": [
+
+    ],
+    "minimum-stability": "dev",
+    "stability-flags": [
+
+    ]
+}
