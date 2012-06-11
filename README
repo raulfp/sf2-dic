@@ -1,0 +1,52 @@
+1.- Montamos el esqueleto
+	Para ello podemos hacerlo nosotros con estos pasos:
+		1.- Descargar CodeIgniter
+			ir a gitHub->codeIgniter->copiar read only
+			$> cd /datos/workspace
+			$> git clone <cmd+v> sf2-dic
+
+		2.- Descargar los componentes Config y DIC de SF2 vía Composer
+			$> cd /datos/workspace/sf2-dic
+			Editamos composer.json para que quede tal que así
+			{
+				"require": {
+					"symfony/config": "*",
+					"symfony/dependency-injection": "*"
+				}
+			}
+			$> curl -s http://getcomposer.org/installer | php
+			$> php composer.phar install
+
+		3.- Editamos config
+			$config['base_url']	= 'http://sf2-dic.local';
+
+		4.- Editamos index.php para definir el path de la carpeta vendor
+			// The path to the vendor folder
+		    define('VENDORPATH', __DIR__ . '/vendor/');
+
+		5.- Editamos autoload.php (config) para añadir el autoload de Composer
+			/*
+			* Auto-load vendors
+			*/
+			require_once VENDORPATH . 'autoload.php';
+
+	O podemos clonar el esqueleto de GitHub:
+		$> cd /datos/workspace
+		$> git clone git://github.com/arsakiyo/sf2-dic.git sf2-dic
+
+2.-	Editamos el hosts
+	127.0.0.1		sf2-dic.local
+
+3.-	Editamos el vhosts
+	# Symphony2 DIC container demo
+	<VirtualHost *:80>
+		DocumentRoot "/datos/workspace/sf2-dic/"
+		ServerName sf2-dic.local
+
+		<Directory "/datos/workspace/sf2-dic/">
+			Options Indexes MultiViews FollowSymLinks
+			AllowOverride All
+			Order allow,deny
+			Allow from all
+		</Directory>
+	</VirtualHost>
