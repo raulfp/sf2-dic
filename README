@@ -32,7 +32,7 @@
 			require_once VENDORPATH . 'autoload.php';
 
 	    6.- Creamos un .htaccess en el webroot con este contenido
-	        RewriteEngine on
+            RewriteEngine on
             RewriteCond $1 !^(index\.php|images|robots\.txt)
             RewriteRule ^(.*)$ /index.php/$1 [L]
 
