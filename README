@@ -19,6 +19,7 @@
 
 		3.- Editamos config
 			$config['base_url']	= 'http://sf2-dic.local';
+			$config['index_page'] = '';
 
 		4.- Editamos index.php para definir el path de la carpeta vendor
 			// The path to the vendor folder
@@ -29,6 +30,11 @@
 			* Auto-load vendors
 			*/
 			require_once VENDORPATH . 'autoload.php';
+
+	    6.- Creamos un .htaccess en el webroot con este contenido
+	        RewriteEngine on
+            RewriteCond $1 !^(index\.php|images|robots\.txt)
+            RewriteRule ^(.*)$ /index.php/$1 [L]
 
 	O podemos clonar el esqueleto de GitHub:
 		$> cd /datos/workspace
