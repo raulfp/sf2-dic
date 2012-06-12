@@ -25,7 +25,7 @@
  * @filesource
  */
 
-class Welcome extends CI_Controller {
+class Dic extends CI_Controller {
 
 	/**
 	 * Index Page for this controller.
