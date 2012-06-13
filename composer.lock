@@ -1,15 +1,38 @@
 {
-    "hash": "45c04d1443e85d2e3bba843e21dfcb5f",
+    "hash": "09c01698b67a3d8aecfccb6306b8853a",
     "packages": [
         {
             "package": "symfony/config",
             "version": "dev-master",
-            "source-reference": "dc19d63559641fd283040471530b0117aa9a8c99"
+            "alias-pretty-version": "2.1.x-dev",
+            "alias-version": "2.1.9999999.9999999-dev"
+        },
+        {
+            "package": "symfony/config",
+            "version": "dev-master",
+            "source-reference": "ac127ca0a1002726953eced989897e7b5c454292"
         },
         {
             "package": "symfony/dependency-injection",
             "version": "dev-master",
-            "source-reference": "b6916c7db53e798d8c761e45e6931430369fef2a"
+            "alias-pretty-version": "2.1.x-dev",
+            "alias-version": "2.1.9999999.9999999-dev"
+        },
+        {
+            "package": "symfony/dependency-injection",
+            "version": "dev-master",
+            "source-reference": "c7fc49daf41dc76e2e2f629474e8777837ba3fd0"
+        },
+        {
+            "package": "symfony/yaml",
+            "version": "dev-master",
+            "alias-pretty-version": "2.1.x-dev",
+            "alias-version": "2.1.9999999.9999999-dev"
+        },
+        {
+            "package": "symfony/yaml",
+            "version": "dev-master",
+            "source-reference": "8272d98f8087878db37e8e5f6d4e37c5cc783dc3"
         }
     ],
     "packages-dev": null,

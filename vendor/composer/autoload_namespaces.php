@@ -6,6 +6,7 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Symfony\\Component\\DependencyInjection' => $baseDir . '/vendor/symfony/dependency-injection/',
-    'Symfony\\Component\\Config' => $baseDir . '/vendor/symfony/config/',
+    'Symfony\\Component\\Yaml' => $vendorDir . '/symfony/yaml/',
+    'Symfony\\Component\\DependencyInjection' => $vendorDir . '/symfony/dependency-injection/',
+    'Symfony\\Component\\Config' => $vendorDir . '/symfony/config/',
 );

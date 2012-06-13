@@ -1,19 +1,71 @@
 [
     {
+        "name": "symfony/yaml",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "target-dir": "Symfony/Component/Yaml",
+        "time": "2012-06-13 12:57:32",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/Yaml",
+            "reference": "8272d98f8087878db37e8e5f6d4e37c5cc783dc3"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://github.com/symfony/Yaml/zipball/8272d98f8087878db37e8e5f6d4e37c5cc783dc3",
+            "reference": "8272d98f8087878db37e8e5f6d4e37c5cc783dc3",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.3"
+        },
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.1-dev"
+            }
+        },
+        "installation-source": "source",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com",
+                "homepage": null,
+                "role": null
+            },
+            {
+                "name": "Symfony Community",
+                "email": null,
+                "homepage": "http://symfony.com/contributors",
+                "role": null
+            }
+        ],
+        "description": "Symfony Yaml Component",
+        "homepage": "http://symfony.com",
+        "autoload": {
+            "psr-0": {
+                "Symfony\\Component\\Yaml": ""
+            }
+        }
+    },
+    {
         "name": "symfony/config",
         "version": "dev-master",
         "version_normalized": "9999999-dev",
         "target-dir": "Symfony/Component/Config",
-        "time": "2012-05-26 13:30:39",
+        "time": "2012-06-10 19:30:17",
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/Config",
-            "reference": "dc19d63559641fd283040471530b0117aa9a8c99"
+            "reference": "ac127ca0a1002726953eced989897e7b5c454292"
         },
         "dist": {
             "type": "zip",
-            "url": "https://github.com/symfony/Config/zipball/dc19d63559641fd283040471530b0117aa9a8c99",
-            "reference": "dc19d63559641fd283040471530b0117aa9a8c99",
+            "url": "https://github.com/symfony/Config/zipball/ac127ca0a1002726953eced989897e7b5c454292",
+            "reference": "ac127ca0a1002726953eced989897e7b5c454292",
             "shasum": ""
         },
         "require": {
@@ -56,16 +108,16 @@
         "version": "dev-master",
         "version_normalized": "9999999-dev",
         "target-dir": "Symfony/Component/DependencyInjection",
-        "time": "2012-05-30 03:01:58",
+        "time": "2012-06-12 12:23:19",
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/DependencyInjection",
-            "reference": "b6916c7db53e798d8c761e45e6931430369fef2a"
+            "reference": "c7fc49daf41dc76e2e2f629474e8777837ba3fd0"
         },
         "dist": {
             "type": "zip",
-            "url": "https://github.com/symfony/DependencyInjection/zipball/b6916c7db53e798d8c761e45e6931430369fef2a",
-            "reference": "b6916c7db53e798d8c761e45e6931430369fef2a",
+            "url": "https://github.com/symfony/DependencyInjection/zipball/c7fc49daf41dc76e2e2f629474e8777837ba3fd0",
+            "reference": "c7fc49daf41dc76e2e2f629474e8777837ba3fd0",
             "shasum": ""
         },
         "require": {

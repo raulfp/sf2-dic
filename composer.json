@@ -1,6 +1,7 @@
 {
     "require": {
         "symfony/config": "*",
-        "symfony/dependency-injection": "*"
+        "symfony/dependency-injection": "*",
+        "symfony/yaml": "*"
     }
 }
