@@ -143,5 +143,10 @@ $autoload['model'] = array();
  */
 require_once VENDORPATH . 'autoload.php';
 
+/*
+ * Auto-load swiftmailer
+ */
+require_once VENDORPATH . 'swiftmailer/lib/swift_required.php';
+
 /* End of file autoload.php */
 /* Location: ./application/config/autoload.php */
