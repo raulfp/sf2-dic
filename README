@@ -12,7 +12,8 @@
 				"require": {
 					"symfony/config": "*",
 					"symfony/dependency-injection": "*",
-					"symfony/yaml": "*"
+					"symfony/yaml": "*",
+					"swiftmailer/swiftmailer": "*"
 				}
 			}
 			$> curl -s http://getcomposer.org/installer | php

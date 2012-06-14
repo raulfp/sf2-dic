@@ -1,11 +1,16 @@
 {
-    "hash": "09c01698b67a3d8aecfccb6306b8853a",
+    "hash": "d5f9e6c0fb8cb963762349d5d02c89b1",
     "packages": [
         {
-            "package": "symfony/config",
+            "package": "swiftmailer/swiftmailer",
             "version": "dev-master",
-            "alias-pretty-version": "2.1.x-dev",
-            "alias-version": "2.1.9999999.9999999-dev"
+            "source-reference": "d33d54cc8a081b0b85734744936ede1ba230dd64"
+        },
+        {
+            "package": "swiftmailer/swiftmailer",
+            "version": "dev-master",
+            "alias-pretty-version": "4.1.x-dev",
+            "alias-version": "4.1.9999999.9999999-dev"
         },
         {
             "package": "symfony/config",
@@ -15,19 +20,7 @@
         {
             "package": "symfony/dependency-injection",
             "version": "dev-master",
-            "alias-pretty-version": "2.1.x-dev",
-            "alias-version": "2.1.9999999.9999999-dev"
-        },
-        {
-            "package": "symfony/dependency-injection",
-            "version": "dev-master",
             "source-reference": "c7fc49daf41dc76e2e2f629474e8777837ba3fd0"
-        },
-        {
-            "package": "symfony/yaml",
-            "version": "dev-master",
-            "alias-pretty-version": "2.1.x-dev",
-            "alias-version": "2.1.9999999.9999999-dev"
         },
         {
             "package": "symfony/yaml",

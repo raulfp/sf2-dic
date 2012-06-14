@@ -2,6 +2,7 @@
     "require": {
         "symfony/config": "*",
         "symfony/dependency-injection": "*",
-        "symfony/yaml": "*"
+        "symfony/yaml": "*",
+	"swiftmailer/swiftmailer": "*"
     }
 }
