@@ -41,6 +41,7 @@
 	O podemos clonar el esqueleto de GitHub:
 		$> cd /datos/workspace
 		$> git clone git://github.com/arsakiyo/sf2-dic.git sf2-dic
+		$> php composer.phar install
 
 2.-	Editamos el hosts
 	127.0.0.1		sf2-dic.local
